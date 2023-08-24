@@ -480,11 +480,11 @@ body{
     
 }
 .u-name b{
-    font-size: x-large;
+    font-size: larger;
     padding: 1rem;
 }
 .u-name p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .u-name span{
     background-color: yellow;
@@ -1227,10 +1227,10 @@ body{
     }
     .last{
          padding: 0.3rem;
-         font-size: x-large;
+         font-size: large;
     }
     .last span{
-        font-size: 16px;
+        font-size: 12px;
         
     }
 }
@@ -1478,10 +1478,10 @@ font-size: 8px;
 }
 .last{
      padding: 0.3rem;
-    font-size: x-large;
+    font-size: larger;
 }
 .last span{
-    font-size: 7px;
+    font-size: 5px;
 }
 }
 
@@ -1706,10 +1706,10 @@ font-size: 8px;
     }
     .last{
          padding: 0.3rem;
-         font-size: x-large;
+         font-size: large;
     }
     .last span{
-        font-size: 10px;
+        font-size: 7px;
         
     }
 }
@@ -1834,13 +1834,13 @@ font-size: 8px;
     .c4-box{
         padding: 1rem;
         width: 45vh;
-        height: 65vh;
+        height: 75vh;
     }
     .c4-subbox p{
         font-size: large;
     }
     .black-bar2{
-        height: 20vh;
+        height: 25vh;
         width: 100%;
         margin: 0;
     }
@@ -1910,17 +1910,17 @@ font-size: 8px;
     .q-box1{
         padding: 1rem;
         width: 41vh;
-        height: 33vh;
+        height: 35vh;
     }
     .q-box2{
         padding: 1rem;
         width: 41vh;
-        height: 43vh;
+        height: 54vh;
     }
     .q-box3{
         padding: 1rem;
         width: 41vh;
-        height: 48vh;
+        height: 62vh;
     }
     .q-subbox{
         flex-direction: column;
@@ -1941,10 +1941,10 @@ font-size: 8px;
         }
         .last{
              padding: 0.3rem;
-            font-size: large;
+            font-size: medium;
         }
         .last span{
-            font-size: 5px;
+            font-size: 4px;
         }
     
 }
@@ -2102,10 +2102,10 @@ font-size: 8px;
     }
     .last{
          padding: 0.3rem;
-         font-size: x-large;
+         font-size: large;
     }
     .last span{
-        font-size: 16px;
+        font-size: 12px;
         
     }
 }
