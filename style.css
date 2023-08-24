@@ -1714,7 +1714,7 @@ font-size: 8px;
     }
 }
 
-@media  screen and (min-width:280px) and (max-width:350px){
+@media  screen and (min-width:270px) and (max-width:350px){
     .head img{
         padding: 1rem;
         width: 13rem;
@@ -1733,15 +1733,15 @@ font-size: 8px;
         display: none;
     }
     .learn{
-        font-size: large;
+        font-size: medium;
     }
     .learn-head h1{
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: medium;
+        font-size: 0.7rem;
         padding: 1rem;
-        word-spacing: normal;
+        word-spacing: 0;
     }
     .learn-li p{
         font-size: 1.5vh;
@@ -1769,13 +1769,13 @@ font-size: 8px;
         
     }
     .mega{
-        height: 8rem;
+        height: 9rem;
     }
     .mega b{
-        font-size: 1rem;
+        font-size: 0.6rem;
     }
     .mega h1{
-        font-size: 1rem;
+        font-size: 0.6rem;
     }
     .bonus-box{
         flex-direction: column;
@@ -1830,6 +1830,16 @@ font-size: 8px;
         padding-top: 2rem;
         height: auto;
         flex-direction: column;
+    }
+    .black-bar{
+        height: 20vh;
+    }
+    .black-bar h1{
+        font-size: larger;
+
+    }
+    .black-bar span{
+        font-size: large;
     }
     .c4-box{
         padding: 1rem;
