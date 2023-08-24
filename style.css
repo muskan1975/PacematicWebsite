@@ -1,0 +1,2111 @@
+*{
+    padding: 0;
+    margin: 0;
+
+     /* font-family:Verdana, Geneva, Tahoma, sans-serif;  */
+     box-sizing: border-box;
+    
+} 
+
+/* html{
+    font-size: 60.5%;
+
+} */
+
+body{
+    overflow-x: hidden;
+}
+
+.btn1{
+    padding: 1rem;
+    position: sticky;
+    display: none;
+}
+
+.btn1 button{
+    width: 100%;
+    background-color: red;
+    color: aliceblue;
+    padding: 0.5rem;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.head p{
+    font-size: larger;
+}
+
+.btn1 span{
+    font-size: small;
+    color:rgba(245, 222, 179, 0.848);
+} 
+
+.container1{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.head{
+    color: rgb(231, 234, 29);
+    text-align: center;
+    padding: 2rem;
+
+}
+.head span{
+    font-size: 3rem;
+    
+
+}
+.head h1{
+    font-size: 3vw;
+    padding: 1rem;
+    
+}
+
+.head h2{
+    color:white;
+    font-weight: 900;
+    
+}
+
+.head img{
+    padding: 2rem;
+    width: 50rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn button{
+    background-color: red;
+    color: aliceblue;
+    padding: 0 4rem;
+    font-size: x-large;
+    cursor: pointer;
+    height: 7rem;
+    border-radius: 1rem;
+}
+.head p{
+    font-size: larger;
+}
+
+.btn span{
+    font-size: small;
+    color:rgba(245, 222, 179, 0.848);
+} 
+
+
+/* #buttons{
+    text-align: center;
+    padding: 2rem;
+    
+} */
+
+.register1{
+    text-align: center;
+    padding: 0.5rem;
+    font-size: xx-large;
+    color: wheat;
+}
+.register1 b{
+    color:red;
+}
+.btn-name{
+    font-size:medium;
+    color: aliceblue;
+    word-spacing: 0.9rem;
+     margin-left: 1.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}  
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+#tm-btn1{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0.1rem;
+
+}
+
+#tm-btn2{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0.1rem;
+}
+
+#tm-btn3{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0.1rem;
+}
+
+#tm-btn4{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0.1rem;
+}
+
+.learn{
+    padding: 2rem;
+ }
+
+ .learn-head h1{
+    color: white;
+    letter-spacing: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ .learn-li p{
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    padding: 0.5rem;
+    
+   
+}.learn-li{
+    padding: 1rem;
+}
+
+    
+
+
+
+ 
+ .learn-li span{
+    color: yellow;
+    font-size:3.5vh;
+    
+ }
+
+ .box-1{
+    color: white;
+   
+}
+ 
+
+ .box-1 button{
+    height: 9rem;
+    width: 80%;
+    border-radius: 1rem;
+    display: flex;
+    padding: 2.5rem;
+    margin: auto;
+    
+    
+}
+
+ .box-1 span{
+    margin: auto;
+    font-size: 1.5rem;
+   
+   
+
+}
+ .box-1 b{
+    font-size:1rem;
+
+ }
+ .mega{
+    text-align: center;
+    margin: 2rem;
+    height: 8rem;
+}
+
+ 
+ .mega b{
+    color: yellow;
+    font-size: larger;
+    
+}
+ .mega span{
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 1rem;
+    
+    
+}
+
+ .bonus-box{
+    background-color:white;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+ .b-btn{
+   height: 22rem;
+   width: 27%;
+   border-radius: 1rem;
+   text-align: center;
+   background-color: rgba(225, 151, 225, 0.11);
+   display: flex;
+   align-items: center;
+    justify-content: center;
+}
+
+
+ .bonus-box h1{
+    font-size: 3rem;
+    color: red;
+    padding: 1rem;
+
+}
+.bonus-box span{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.6rem;
+    font-weight:400;
+    margin-bottom: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+ .bonus-box p{
+    font-size: medium;
+    padding: 2rem;
+ } 
+
+.sm-btn {
+    color:white;
+    width: 20rem;
+    text-align: center;
+    font-size: 180px;
+    background-color: red;
+    border-radius: 0.5rem;
+    margin: 2rem;
+
+    
+}
+.sm-btn p{
+    font-size:1.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+#tm-btn5{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+
+}
+
+#tm-btn6{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn7{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn8{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+.btn-name2{
+    font-size:medium;
+    color:black;
+    word-spacing: 0.9rem;
+     margin-left: 1.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}  
+.btn3{
+    
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn3 button{
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+    cursor: pointer;
+    height: 7rem;
+    border-radius: 1rem;
+    width: 40rem;
+}
+.head p{
+    font-size: larger;
+}
+
+.btn3 span{
+    font-size: small;
+    color:rgba(245, 222, 179, 0.848);
+} 
+
+
+.register{
+    text-align: center;
+    padding: 0.5rem;
+    font-size: xx-large;
+}
+.register b{
+    color:red;
+}
+.container-3{
+    background-image: url(https://img.flexifunnels.com/images/163/azmjq_1359_image.png);
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.head-3{
+    text-align: center;
+    font-size:3rem;
+    padding: 2rem 2rem;
+}
+
+.line{
+    text-align: center;
+    
+}
+
+.CThree-box{
+   
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: white;
+    width: 31vh;
+    border-radius: 1rem;
+    height: 55vh;
+    
+}
+.u-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.u-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.u-img img{
+    border-radius: 50%;
+    width: 6rem;
+    
+    
+}
+.u-name b{
+    font-size: x-large;
+    padding: 1rem;
+}
+.u-name p{
+    font-size: 1.2rem;
+}
+.u-name span{
+    background-color: yellow;
+}
+#tm-btn9{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+
+}
+
+#tm-btn10{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn11{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn12{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+
+.cont3-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    height: auto;
+}
+.add-coma{
+    text-align: center;
+    display: flex;
+    gap: 18rem;
+    margin-left: 16rem;
+
+
+
+}
+
+
+
+.black-bar{
+    background-color: black;
+    height: 23vh;
+    width: 100%;
+}
+.black-bar h1{
+    color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 2rem;
+}
+.black-bar b{
+    color: yellow;
+}
+
+.black-bar span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: yellow;
+    font-weight: 900;
+}
+.container4-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 2rem;
+    height: auto;
+}
+.container4-box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 2rem;
+    height: auto;
+}
+.c4-box{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: rgba(213, 126, 224, 0.19);
+    width: 80vh;
+    border-radius: 1rem;
+    height: 30vh;
+}
+.c4-subbox{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    gap: 1rem;
+}
+.c4-subbox p{
+    font-size: x-large;
+}
+.c4-subbox span{
+    color: red;
+}
+.cont4-Sboxes{
+    display: flex;
+    padding: 1rem;
+}
+.CFour-Stwobox{
+    height:18rem;
+    width: 49%;
+    background-color: rgba(158, 16, 223, 0.077);
+    border-radius: 1rem;
+    margin-left: 1rem;
+    padding: 0;
+}
+#tm-btn13{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn14{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn15{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+#tm-btn16{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+.black-bar2{
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    margin-top: 4rem;
+    text-align: center;
+}
+.black-bar2 h1{
+    color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+.black-bar2 b{
+    color: yellow;
+}
+.black-bar2 span{
+    color: yellow;
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+}
+.discript{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  0 14rem;
+}
+.np-img img {
+    width:39rem;
+    height: 50rem;
+    padding: 6rem;
+   
+}
+.Host {
+    padding: 4rem;
+   
+}
+.Host p{
+    font-size: x-large;
+}
+.Host h1{
+    color: rgba(255, 0, 0, 0.74);
+    padding: 1rem 0;
+}
+.Host span{
+    font-size: 1.8rem;
+}
+#tm-btn17{
+    width: 4rem;
+    background-color:black;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn18{
+    width: 4rem;
+    background-color: black;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn19{
+    width: 4rem;
+    background-color:black;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+#tm-btn20{
+    width: 4rem;
+    background-color:black;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+.btn-name5{
+    font-size:large;
+    color: black;
+    text-align: center;
+    word-spacing: 1rem;
+    margin-left: 2rem;
+}
+
+.black-bar3{
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    margin-top: 4rem;
+    text-align: center;
+}
+.black-bar3 h1{
+    color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 1.5rem;
+ }
+.black-bar3 b{
+    color: yellow;
+}
+.black-bar3 span{
+    color: yellow;
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+}
+.container-5{
+        
+    width: 100%;
+    height: 100%;
+    background-color:rgba(219, 165, 165, 0.078);
+ }
+.wp{
+    padding: 3rem;
+    text-align: center;
+    margin: 0 6rem;
+    flex-direction: row;
+}
+.wp span{
+    color: black;
+    font-size: x-large;
+}
+#tm-btn21{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn22{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn23{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+#tm-btn24{
+    width: 4rem;
+    background-color: white;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+.question-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 2rem;
+    
+}
+.q-box1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    padding: 1rem;
+    background-color: rgba(12, 91, 161, 0.073);
+    width: 60vh;
+    border-radius: 1rem;
+    height: 25vh;
+}
+.q-box2{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    padding: 1rem;
+    background-color: rgba(12, 91, 161, 0.073);
+    width: 60vh;
+    border-radius: 1rem;
+    height: 30vh;
+}
+.q-box3{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    padding: 1rem;
+    background-color: rgba(12, 91, 161, 0.073);
+    width: 60vh;
+    border-radius: 1rem;
+    height: 32vh;
+}
+.q-subbox{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    gap: 1rem;
+}
+.q-subbox p{
+    font-size: larger;
+}
+.question-boxes2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 2rem;
+}
+.question-boxes3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 2rem;
+}
+
+.register-l{
+    
+    text-align: center;
+    padding: 0.5rem;
+    font-size: xx-large;
+}
+.register-l span{
+    color: white;
+}
+.register-l b{
+    color: red;
+}
+
+.btn-l{
+    padding: 0rem;
+    text-align: center;
+}
+
+.btn-l button{
+    width: 40%;
+    background-color: red;
+    color: aliceblue;
+    padding: 0.5rem;
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    border: none;
+}
+#tm-btn25{
+    width: 4rem;
+    background-color:black;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn26{
+    width: 4rem;
+    background-color: black;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+
+#tm-btn27{
+    width: 4rem;
+    background-color:black;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+#tm-btn28{
+    width: 4rem;
+    background-color:black;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0.1rem;
+}
+.container-6{
+    background-image: url(https://img.flexifunnels.com/images/163/axmtq_1200_fi9P660NGy1920section6.png);
+    background-size: cover;
+    height: 78%;
+    width: 100%;
+    margin-top: 1rem;
+    background-position: top;
+}
+.cont6-head{
+    color: white;
+    text-align: center;
+    font-size:3rem;
+    padding: 2rem;
+}
+.contact{
+    text-align: center;
+    color: white;
+    padding: 2.5rem;
+    font-size: x-large;
+}
+.contact b{
+    text-decoration: underline;
+}
+.contact h4{
+    padding: 0.5rem;
+}
+.fing-img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fing-img img{
+    width: 15rem;
+    height: 10rem;
+    padding: 2rem;
+    
+}
+.linking{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.linking a{
+    color: rgba(124, 80, 166, 0.937);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: x-large;
+}
+.last span{
+    font-size: 20px;
+}
+
+
+
+
+@media  screen and (min-width:768px) and (max-width:1023px){
+
+    .head img{
+        width: 30rem;
+    }
+    .box-1 button{
+        font-size: large;
+    }
+    .bonus-box{
+        flex-direction: column;
+        font-size: large;
+    }
+    .b-btn{
+        height: 22rem;
+        width: 45%;
+     }
+    .sm-btn {
+        
+        width: 18rem;
+        text-align: center;
+        font-size: 100px;
+     }
+
+    .sm-btn p{
+        font-size:1.5rem;
+        height: 2rem;
+    } 
+    .btn3 .button{
+        text-align: center;
+        font-size: large;
+        width: 50rem;
+    }
+   .head p{
+        font-size: large;
+    }
+   .container-3{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .cont3-boxes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   .CThree-box{
+        height:25rem;
+        width: 90%;
+        text-align: center;  
+        margin: 0.5rem;
+    }
+   .CThree-box p{
+        font-size: x-large;
+        font-weight: 100;
+    }
+    .CThree-box b{
+        font-size: x-large;
+    }
+    .CThree-box img{
+        width: 12rem;
+        margin: 1rem;
+        padding: 0 3rem;
+        text-align: center;
+    }
+    .add-coma{
+        display: none;
+    }
+   .container4-box1{
+        padding-top: 2rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .container4-box2{
+        padding-top: 2rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .c4-box{
+        padding: 1rem;
+        width: 60vh;
+        height: 25vh;
+    }
+    .c4-subbox{
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+    .c4-subbox p{
+        font-size: x-large;
+    }
+    .discript{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .np-img img {
+        width:28rem;
+        height: 39rem;
+        padding: 4rem;
+    }
+    .Host {
+        padding: 1rem;
+    }
+    .Host p{
+        font-size: large;
+    }
+    .Host span{
+        font-size: 1.5rem;
+        padding: 17rem;
+    }
+    .question-boxes{
+        padding-top: 2rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .q-box1{
+        padding: 1rem;
+        width: 50vh;
+        height: 15vh;
+    }
+    .q-box2{
+        gap: 30px;
+        padding: 1rem;
+        width: 50vh;
+        height: 20vh;
+    }
+    .q-box3{
+        padding: 1rem;
+        width: 50vh;
+        height: 24vh;
+    }
+    .question-boxes2{
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .question-boxes3{
+        padding-bottom: 2rem;
+        flex-direction: column;
+    }
+    .container-7{
+        height: auto;
+        width: 100%;
+    }
+    .fing-img img{
+        width: 15rem;
+        height: 10rem;
+        padding: 2rem;
+        
+    }
+    .linking a{
+        font-size: large;
+    }
+    .last{
+         padding: 0.3rem;
+         font-size: x-large;
+    }
+    .last span{
+        font-size: 16px;
+        
+    }
+}
+
+
+@media  screen and (min-width:350px) and (max-width:450px){
+     .head img{
+        width: 20rem;
+    }
+    .head h1{
+        font-size: large;
+    }
+    .btn button{
+        padding: 0 0.2rem;
+        font-size: medium;
+         height: 7rem;
+    }
+    .head p{
+        font-size: medium;
+    }
+    .btn span{
+        font-size: small;
+        
+    } 
+    
+    .buttons button{
+        height: 3.5rem;
+        width: 4rem;
+     } 
+     .btn-name {
+         font-size:medium;
+         display: flex;
+     }
+    .learn{
+        font-size: larger;
+    }
+    .learn-head h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+        padding: 1rem;
+    }
+    .learn-li p{
+        font-size: 2vh;
+    }
+    .learn-li{
+        padding: 1rem;
+    }
+    .learn-li span{
+        font-size:2vh;
+    }
+    .box-1{
+        height: 70vh;
+        padding: 2rem;
+    
+    }
+    .box-1 button{
+        font-size: larger;
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+    .box-1 span{
+        padding: 0rem;
+    }
+    .mega{
+        height: 8rem;
+    }
+    .mega b{
+        font-size: large;
+    }
+    .mega h1{
+        font-size: large;
+    }
+    .bonus-box{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .b-btn{
+        height: 17rem;
+        width: 20rem;
+    }
+     .b-btn h1{
+        font-size: xx-large;
+    }
+     .b-btn span{
+         font-size: 1rem;
+    }
+    .sm-btn {
+         width: 12rem;
+         height: 3.5rem;
+    }
+    .sm-btn p{
+        font-size:medium;
+    } 
+    .btn3 button{
+         font-size: 0.8rem;
+    }
+    .head p{
+        font-size: medium;
+    }
+    .btn3 span{
+        font-size: small;
+    } 
+    .buttons button{
+       height: 3.5rem;
+        width: 4rem;
+    } 
+    .btn-name3{
+        font-size:medium;
+        display: flex;
+    }
+    .add-coma{
+        display: none;
+    }
+    .CThree-box{
+        height: 30rem;
+    }
+    .cont3-boxes{
+    flex-direction: column;
+    padding: 1rem;
+    }
+    .black-bar{
+    height: 20vh;
+    width: 100%
+}
+.black-bar h1{
+    font-size: larger;
+    padding: 1rem;
+}
+.container4-box1{
+    padding-top: 2rem;
+    height: auto;
+    flex-direction: column;
+}
+.container4-box2{
+    padding-top: 2rem;
+    height: auto;
+    flex-direction: column;
+}
+.c4-box{
+    padding: 1rem;
+    width: 45vh;
+    height: 60vh;
+}
+.c4-subbox p{
+    font-size: large;
+}
+.black-bar2{
+    height: 20vh;
+    width: 100%;
+    margin: 0;
+}
+.black-bar2 h1{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+.Host {
+    padding:1rem
+}
+.Host p{
+    font-size: medium;
+}
+.Host span{
+    font-size: larger;
+    padding: 1rem;
+}
+.np-img img {
+    width:20rem;
+    height: 25rem;
+    margin: 0;
+    padding: 1rem;
+}
+.discript{
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+}
+.btn-name5{
+    font-size:medium;
+    color: black;
+}
+.black-bar3{
+    margin-top: 1rem;
+}
+.black-bar3 h1{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+ }
+ .wp{
+    padding: 1rem;
+    margin: 1rem;
+}
+.wp span{
+    font-size:larger;
+}
+.question-boxes{
+    padding-top: 2rem;
+    flex-direction: column;
+    
+}
+.question-boxes2{
+    padding-top: 2rem;
+    flex-direction: column;
+}
+.question-boxes3{
+    padding-top: 2rem;
+    flex-direction: column;
+}
+.q-box1{
+    padding: 1rem;
+    width: 45vh;
+    height: 30vh;
+}
+.q-box2{
+    padding: 1rem;
+    width: 45vh;
+    height: 40vh;
+}
+.q-box3{
+    padding: 1rem;
+    width: 45vh;
+    height: 45vh;
+}
+.q-subbox{
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+.q-subbox p{
+    font-size: large;
+}
+.q-subbox h1{
+    font-size: x-large;
+}
+.container-7{
+    width: 100%;
+}
+.linking a{ 
+font-size: 8px;
+}
+.contact{
+    padding: 2rem;
+    font-size: larger;
+}
+.last{
+     padding: 0.3rem;
+    font-size: x-large;
+}
+.last span{
+    font-size: 7px;
+}
+}
+
+@media  screen and (min-width:540px) and (max-width:767px){
+    .head img{
+        width: 20rem;
+    }
+    .head h1{
+        font-size: large;
+    }
+    .btn button{
+        padding: 0 0.2rem;
+        font-size: medium;
+        height: 7rem;
+        width: 30rem;
+    }
+    .head p{
+        font-size: medium;
+    }
+    .btn span{
+        font-size: small;
+    }
+    .buttons button{
+        height: 3.5rem;
+         width: 5rem;
+     } 
+     .btn-name{
+         font-size:medium;
+     }
+     .learn{
+         font-size: larger;
+     }
+     .learn-head h1{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: large;
+         padding: 1rem;
+     }
+     .learn-li p{
+         font-size: 2vh;
+     }
+     .learn-li{
+         padding: 1rem;
+     }
+     .learn-li span{
+         font-size:2vh;
+     } 
+     .box-1{
+        height: 72vh;
+        
+    }
+    .box-1 button{
+        font-size: larger;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .box-1 span{
+        padding: 1rem;
+    }
+    .mega{
+        height: 8rem;
+    }
+    .mega b{
+        font-size: large;
+    }
+    .mega h1{
+        font-size: large;
+    }
+    .bonus-box{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .b-btn{
+        height: 17rem;
+        width: 20rem;
+    }
+     .b-btn h1{
+        font-size: xx-large;
+    }
+     .b-btn span{
+         font-size: 1rem;
+    }
+    .sm-btn {
+         width: 12rem;
+         height: 3.5rem;
+    }
+    .sm-btn p{
+        font-size:medium;
+    } 
+    .btn3 .button{
+        width: 50rem;
+    }
+    .btn3 h2{
+        font-size: larger;
+    }
+   .head p{
+        font-size: medium;
+    }
+   .container-3{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .cont3-boxes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   .CThree-box{
+        height:25rem;
+        width: 90%;
+        text-align: center;  
+        margin: 0.5rem;
+    }
+   .CThree-box p{
+        font-size: x-large;
+        font-weight: 100;
+    }
+    .CThree-box b{
+        font-size: x-large;
+    }
+    .CThree-box img{
+        width: 12rem;
+        margin: 1rem;
+        padding: 0 3rem;
+        text-align: center;
+    }
+    .add-coma{
+        display: none;
+    }
+    .black-bar h1{
+        font-size: larger;
+    }
+   .container4-box1{
+        padding-top: 2rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .container4-box2{
+        padding-top: 2rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .c4-box{
+        padding: 1rem;
+        width: 60vh;
+        height: 50vh;
+    }
+    .c4-subbox{
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+    .c4-subbox p{
+        font-size: x-large;
+    }
+    .discript{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .np-img img {
+        width:18rem;
+        height: 29rem;
+        padding: 2rem;
+    }
+    .Host {
+        padding: 1rem;
+    }
+    .Host p{
+        font-size: large;
+    }
+    .Host span{
+        font-size: 1rem;
+        padding: 12rem;
+    }
+    .black-bar3 h1{
+        font-size: xx-large;
+    }
+    .question-boxes{
+        padding-top: 2rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .q-box1{
+        padding: 1rem;
+        width: 50vh;
+        height: 30vh;
+    }
+    .q-box2{
+        gap: 30px;
+        padding: 1rem;
+        width: 50vh;
+        height: 35vh;
+    }
+    .q-box3{
+        padding: 1rem;
+        width: 50vh;
+        height: 45vh;
+    }
+    .question-boxes2{
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .question-boxes3{
+        padding-bottom: 2rem;
+        flex-direction: column;
+    }
+    .container-7{
+        height: auto;
+        width: 100%;
+    }
+    .fing-img img{
+        width: 15rem;
+        height: 10rem;
+        padding: 2rem;
+        
+    }
+    .linking a{
+        font-size: 10px;
+    }
+    .last{
+         padding: 0.3rem;
+         font-size: x-large;
+    }
+    .last span{
+        font-size: 10px;
+        
+    }
+}
+
+@media  screen and (min-width:280px) and (max-width:350px){
+    .head img{
+        padding: 1rem;
+        width: 13rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn button{
+       padding: 0rem;
+       width: 15rem;
+    }
+    .btn h2{
+        font-size: small;
+    }
+    .buttons{
+        display: none;
+    }
+    .learn{
+        font-size: large;
+    }
+    .learn-head h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: medium;
+        padding: 1rem;
+        word-spacing: normal;
+    }
+    .learn-li p{
+        font-size: 1.5vh;
+    }
+    .learn-li{
+        padding: 1rem;
+    }
+    .learn-li span{
+        font-size:1.5vh;
+    }
+    .box-1{
+        height: 90vh;
+        padding: 2rem;
+    
+    }
+    .box-1 button{
+        font-size: large;
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+    .box-1 span{
+        padding: 1rem;
+        font-size: large;
+        
+    }
+    .mega{
+        height: 8rem;
+    }
+    .mega b{
+        font-size: 1rem;
+    }
+    .mega h1{
+        font-size: 1rem;
+    }
+    .bonus-box{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .b-btn{
+        height: 15rem;
+        width: 15rem;
+    }
+     .b-btn h1{
+        font-size: large;
+    }
+     .b-btn span{
+         font-size: 1rem;
+    }
+    .sm-btn {
+         width: 10rem;
+         height: 4rem;
+         padding: 0rem;
+    }
+    .sm-btn p{
+        font-size:medium;
+    }
+    .btn3 button{
+        padding: 0rem;
+        width: 15rem;
+     }
+     .btn3 h2{
+         font-size: small;
+     }
+     .CThree-box{
+        height: 33rem;
+    }
+    .cont3-boxes{
+    flex-direction: column;
+    padding: 1rem;
+    }
+    .black-bar{
+        height: 20vh;
+        width: 100%
+    }
+    .black-bar h1{
+        font-size: larger;
+        padding: 1rem;
+    }
+    .container4-box1{
+        padding-top: 2rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .container4-box2{
+        padding-top: 2rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .c4-box{
+        padding: 1rem;
+        width: 45vh;
+        height: 65vh;
+    }
+    .c4-subbox p{
+        font-size: large;
+    }
+    .black-bar2{
+        height: 20vh;
+        width: 100%;
+        margin: 0;
+    }
+    .black-bar2 h1{
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
+    .Host {
+        padding:1rem;
+        
+    }
+    .Host p{
+        font-size: medium;
+    }
+    .Host span{
+        font-size: larger;
+        padding: 1rem;
+    }
+    .add-coma{
+        display: none;
+    }
+    .coma1{
+        display: flex;
+    }
+    .np-img img {
+        width:20rem;
+        height: 25rem;
+        margin: 0;
+        padding: 1rem;
+    }
+    .discript{
+        flex-direction: column;
+        margin: auto;
+        padding: auto;
+    }
+    .btn-name5{
+        font-size:medium;
+        color: black;
+    }
+    .black-bar3{
+        margin-top: 1rem;
+    }
+    .black-bar3 h1{
+        font-size: 1rem;
+        padding: 1.5rem;
+     }
+     .wp{
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .wp span{
+        font-size:larger;
+    }
+    .question-boxes{
+        padding-top: 2rem;
+        flex-direction: column;
+        
+    }
+    .question-boxes2{
+        padding-top: 2rem;
+        flex-direction: column;
+    }
+    .question-boxes3{
+        padding-top: 2rem;
+        flex-direction: column;
+    }
+    .q-box1{
+        padding: 1rem;
+        width: 41vh;
+        height: 33vh;
+    }
+    .q-box2{
+        padding: 1rem;
+        width: 41vh;
+        height: 43vh;
+    }
+    .q-box3{
+        padding: 1rem;
+        width: 41vh;
+        height: 48vh;
+    }
+    .q-subbox{
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+    .q-subbox p{
+        font-size: large;
+    }
+    .q-subbox h1{
+        font-size: x-large;
+    }
+    .linking a{ 
+        font-size: 5px;
+        }
+        .contact{
+            padding: 2rem;
+            font-size: large;
+        }
+        .last{
+             padding: 0.3rem;
+            font-size: large;
+        }
+        .last span{
+            font-size: 5px;
+        }
+    
+}
+
+@media  screen and (min-width:1024px) and (max-width:1350px){
+
+    .head img{
+        width: 30rem;
+    }
+    .box-1 button{
+        font-size: large;
+    }
+    .bonus-box{
+        flex-direction: column;
+        font-size: large;
+    }
+    .b-btn{
+        height: 22rem;
+        width: 45%;
+     }
+    .sm-btn {
+        
+        width: 18rem;
+        text-align: center;
+        font-size: 100px;
+     }
+
+    .sm-btn p{
+        font-size:1.5rem;
+        height: 2rem;
+    } 
+    .btn3 .button{
+        text-align: center;
+        font-size: large;
+        width: 50rem;
+    }
+   .head p{
+        font-size: large;
+    }
+   .container-3{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .cont3-boxes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   .CThree-box{
+        height:25rem;
+        width: 90%;
+        text-align: center;  
+        margin: 0.5rem;
+    }
+   .CThree-box p{
+        font-size: x-large;
+        font-weight: 100;
+    }
+    .CThree-box b{
+        font-size: x-large;
+    }
+    .CThree-box img{
+        width: 12rem;
+        margin: 1rem;
+        padding: 0 3rem;
+        text-align: center;
+    }
+    .add-coma{
+        display: none;
+    }
+   .container4-box1{
+        padding-top: 2rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .container4-box2{
+        padding-top: 2rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .c4-box{
+        padding: 1rem;
+        width: 60vh;
+        height: 25vh;
+    }
+    .c4-subbox{
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+    .c4-subbox p{
+        font-size: x-large;
+    }
+    .discript{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .np-img img {
+        width:28rem;
+        height: 39rem;
+        padding: 4rem;
+    }
+    .Host {
+        padding: 1rem;
+    }
+    .Host p{
+        font-size: large;
+    }
+    .Host span{
+        font-size: 1.5rem;
+        padding: 17rem;
+    }
+    .question-boxes{
+        padding-top: 2rem;
+        height: auto;
+        flex-direction: column;
+    }
+    .q-box1{
+        padding: 1rem;
+        width: 50vh;
+        height: 15vh;
+    }
+    .q-box2{
+        gap: 30px;
+        padding: 1rem;
+        width: 50vh;
+        height: 20vh;
+    }
+    .q-box3{
+        padding: 1rem;
+        width: 50vh;
+        height: 24vh;
+    }
+    .question-boxes2{
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .question-boxes3{
+        padding-bottom: 2rem;
+        flex-direction: column;
+    }
+    .container-7{
+        height: auto;
+        width: 100%;
+    }
+    .fing-img img{
+        width: 15rem;
+        height: 10rem;
+        padding: 2rem;
+        
+    }
+    .linking a{
+        font-size: large;
+    }
+    .last{
+         padding: 0.3rem;
+         font-size: x-large;
+    }
+    .last span{
+        font-size: 16px;
+        
+    }
+}
