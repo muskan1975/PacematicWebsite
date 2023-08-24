@@ -2107,8 +2107,11 @@ font-size: 8px;
         padding: 2rem;
         
     }
+    .linking{
+        font-size: medium;
+    }
     .linking a{
-        font-size: large;
+        font-size: 8px;
     }
     .last{
          padding: 0.3rem;
