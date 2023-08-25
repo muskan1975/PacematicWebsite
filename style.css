@@ -1714,7 +1714,7 @@ font-size: 8px;
     }
 }
 
-@media  screen and (min-width:270px) and (max-width:350px){
+@media  screen and (min-width:260px) and (max-width:350px){
     .head img{
         padding: 1rem;
         width: 13rem;
@@ -1769,13 +1769,16 @@ font-size: 8px;
         
     }
     .mega{
-        height: 9rem;
+        height: 10rem;
     }
     .mega b{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     .mega h1{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
+    }
+    .mega span{
+        font-size: 0.8rem;
     }
     .bonus-box{
         flex-direction: column;
@@ -1876,9 +1879,9 @@ font-size: 8px;
         display: flex;
     }
     .np-img img {
-        width:20rem;
+        width:18rem;
         height: 25rem;
-        margin: 0;
+        margin: 1rem;
         padding: 1rem;
     }
     .discript{
@@ -1942,8 +1945,14 @@ font-size: 8px;
     .q-subbox h1{
         font-size: x-large;
     }
+    .linking{
+        margin: 0;
+        padding: 0;
+    }
     .linking a{ 
-        font-size: 5px;
+        font-size: 0.2rem;
+        margin: 0;
+        padding: 0;
         }
         .contact{
             padding: 2rem;
@@ -2108,17 +2117,17 @@ font-size: 8px;
         
     }
     .linking{
-        font-size: medium;
+        font-size: 0.5rem;
     }
     .linking a{
-        font-size: 8px;
+        font-size: 5px;
     }
     .last{
          padding: 0.3rem;
-         font-size: large;
+         font-size:medium;
     }
     .last span{
-        font-size: 12px;
+        font-size: 10px;
         
     }
 }
