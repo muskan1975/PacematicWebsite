@@ -1684,10 +1684,10 @@ font-size: 8px;
     }
 }
 
-@media  screen and (min-width:260px) and (max-width:349px){
+@media  screen and (min-width:200px) and (max-width:349px){
     .head img{
         padding: 1rem;
-        width: 13rem;
+        width: 8rem;
         justify-content: center;
         align-items: center;
     }
@@ -1714,10 +1714,13 @@ font-size: 8px;
     }
     .btn button{
        padding: 0rem;
-       width: 15rem;
+       width: 12rem;
     }
     .btn h2{
         font-size: small;
+    }
+    .btn-name{
+        font-size: 0.8rem;
     }
     .buttons{
         display: none;
@@ -1729,33 +1732,36 @@ font-size: 8px;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 0.7rem;
+        font-size: 0.4rem;
         padding: 1rem;
-        word-spacing: 0;
+        letter-spacing: 0.4rem;
     }
     .learn-li p{
-        font-size: 1.5vh;
+        font-size: 1vh;
     }
     .learn-li{
         padding: 1rem;
     }
     .learn-li span{
-        font-size:1.5vh;
+        font-size:1vh;
     }
     .box-1{
         height: 90vh;
-        padding: 2rem;
+        width: 12rem;
+        justify-content: center;
+        align-items: center;
+    
     
     }
     .box-1 button{
-        font-size: large;
+        font-size: medium;
         flex-direction: column;
         height: auto;
         padding: 1rem;
     }
     .box-1 span{
         padding: 1rem;
-        font-size: large;
+        font-size: medium;
         
     }
     .mega{
@@ -1776,7 +1782,7 @@ font-size: 8px;
     }
     .b-btn{
         height: 15rem;
-        width: 15rem;
+        width: 10rem;
     }
      .b-btn h1{
         font-size: large;
@@ -1785,7 +1791,7 @@ font-size: 8px;
          font-size: 1rem;
     }
     .sm-btn {
-         width: 10rem;
+         width: 8rem;
          height: 4rem;
          padding: 0rem;
     }
@@ -1794,10 +1800,19 @@ font-size: 8px;
     }
     .btn3 button{
         padding: 0rem;
-        width: 15rem;
+        width: 17rem;
      }
      .btn3 h2{
-         font-size: small;
+         font-size: 0.5rem;
+     }
+     .btn-3 span{
+        font-size: 0.5rem;
+     }
+     .btn-name2{
+        font-size: 0.7rem;
+     }
+     .head-3{
+        font-size: 1rem;
      }
      .CThree-box{
         height: 33rem;
@@ -1806,41 +1821,53 @@ font-size: 8px;
     flex-direction: column;
     padding: 1rem;
     }
-    .black-bar{
-        height: 20vh;
+    /* .black-bar{
+        height: 50rem;
         width: 100%
     }
     .black-bar h1{
-        font-size: larger;
+        font-size: 0.5rem;
         padding: 1rem;
-    }
+    } */
     .container4-box1{
-        padding-top: 2rem;
+        padding-top: 1rem;
+        padding: 0rem;
         height: auto;
         flex-direction: column;
     }
     .container4-box2{
-        padding-top: 2rem;
+        padding-top: 1rem;
         height: auto;
         flex-direction: column;
     }
     .black-bar{
-        height: 20vh;
+        height: 30vh;
     }
     .black-bar h1{
-        font-size: larger;
+        font-size: 1rem;
 
     }
     .black-bar span{
-        font-size: large;
+        font-size: 1rem;
     }
     .c4-box{
+        padding: 0rem;
+        width: 30vh;
+        height: 50vh;
+        margin: 0rem;
+    }
+    .c4-box img{
+        padding:0.4rem;
+    }
+    .c4-subbox{
         padding: 1rem;
-        width: 45vh;
-        height: 75vh;
+        
+    }
+    .c4-subbox h1{
+        font-size: 0.8rem;
     }
     .c4-subbox p{
-        font-size: large;
+        font-size: 0.5rem;
     }
     .black-bar2{
         height: 25vh;
@@ -1869,8 +1896,8 @@ font-size: 8px;
         display: flex;
     }
     .np-img img {
-        width:18rem;
-        height: 25rem;
+        width:12rem;
+        height: 20rem;
         margin: 1rem;
         padding: 1rem;
     }
@@ -1882,6 +1909,9 @@ font-size: 8px;
     .btn-name5{
         font-size:medium;
         color: black;
+    }
+    .black-bar3{
+        height: auto;
     }
     .black-bar3{
         margin-top: 1rem;
@@ -1912,38 +1942,55 @@ font-size: 8px;
     }
     .q-box1{
         padding: 1rem;
-        width: 41vh;
-        height: 35vh;
+        width: 30vh;
+        height: 30vh;
     }
     .q-box2{
         padding: 1rem;
-        width: 41vh;
-        height: 54vh;
+        width: 30vh;
+        height: 30vh;
     }
     .q-box3{
         padding: 1rem;
-        width: 41vh;
-        height: 62vh;
+        width: 30vh;
+        height: 40vh;
     }
     .q-subbox{
         flex-direction: column;
         padding-bottom: 3rem;
     }
     .q-subbox p{
-        font-size: large;
+        font-size: 0.5rem;
     }
     .q-subbox h1{
-        font-size: x-large;
+        font-size: large;
     }
+    .fing-img{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fing-img img{
+        width: 8rem;
+        height: 8rem;
+        padding: 1rem;
+    }
+   
     .linking{
         display: none;
     }
     .Link{
         display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
         
     }
     .Link a{
         color: rgba(124, 80, 166, 0.937);
+        font-size: 0.2rem;
     }
     
     /* .linking{
@@ -1958,12 +2005,7 @@ font-size: 8px;
         font-size: 0.3rem;
     } */
 
-    .Link{
-        font-size: 0.2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    
         .contact{
             padding: 2rem;
             font-size: large;
@@ -1973,7 +2015,7 @@ font-size: 8px;
             font-size: medium;
         }
         .last span{
-            font-size: 4px;
+            font-size: 3px;
         }
     }
 
@@ -2148,4 +2190,5 @@ font-size: 8px;
     .last span{
         font-size: 10px;
     }
+    .
 }
