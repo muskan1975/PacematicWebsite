@@ -1146,6 +1146,9 @@ body{
     .linking a{
         font-size: large;
     }
+    .Link{
+        display: none;
+    }
     .last{
          padding: 0.3rem;
          font-size: large;
@@ -1412,6 +1415,9 @@ body{
 .linking a{ 
 font-size: 8px;
 }
+.Link{
+    display: none;
+}
 .contact{
     padding: 2rem;
     font-size: larger;
@@ -1662,6 +1668,9 @@ font-size: 8px;
     }
     .linking a{
         font-size: 8px;
+    }
+    .Link{
+        display: none;
     }
     .last{
          padding: 0.3rem;
@@ -1924,6 +1933,17 @@ font-size: 8px;
         font-size: x-large;
     }
     .linking{
+        display: none;
+    }
+    .Link{
+        display: block;
+        
+    }
+    .Link a{
+        color: rgba(124, 80, 166, 0.937);
+    }
+    
+    /* .linking{
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -1933,6 +1953,13 @@ font-size: 8px;
         align-items: center;
         justify-content: center;
         font-size: 0.3rem;
+    } */
+
+    .Link{
+        font-size: 0.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
         .contact{
             padding: 2rem;
@@ -2107,6 +2134,9 @@ font-size: 8px;
     }
     .linking a{
         font-size: 10px;
+    }
+    .Link{
+        display: none;
     }
     .last{
          padding: 0.3rem;
