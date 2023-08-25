@@ -1982,14 +1982,14 @@ font-size: 8px;
     }
     .Link{
         display: block;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        text-align: center;
+        /* align-items: center;
+        justify-content: center; */
         
         
     }
     .Link a{
-        color: rgba(124, 80, 166, 0.937);
+        color: red;
         font-size: 0.2rem;
     }
     
@@ -2190,5 +2190,5 @@ font-size: 8px;
     .last span{
         font-size: 10px;
     }
-    .
+    
 }
