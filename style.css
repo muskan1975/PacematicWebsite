@@ -947,14 +947,12 @@ body{
     padding: 2rem;
 }
 .linking{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+  text-align: center;
 }
 .linking a{
     color: rgba(124, 80, 166, 0.937);
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     font-size: 1.5rem;
 }
 .Link{
