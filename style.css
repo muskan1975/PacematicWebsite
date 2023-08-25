@@ -957,6 +957,9 @@ body{
     justify-content: center;
     font-size: 1.5rem;
 }
+.Link{
+    display: none;
+}
 .last{
     display: flex;
     align-items: center;
