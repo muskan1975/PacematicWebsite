@@ -953,7 +953,7 @@ body{
 .linking a{
     color: rgba(124, 80, 166, 0.937);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
 }
 .Link{
     display: none;
@@ -1145,7 +1145,7 @@ body{
         padding: 2rem;
     }
     .linking a{
-        font-size: large;
+        font-size: medium;
     }
     .Link{
         display: none;
@@ -1414,7 +1414,7 @@ body{
     width: 100%;
 }
 .linking a{ 
-font-size: 8px;
+font-size: 7px;
 }
 .Link{
     display: none;
@@ -1668,7 +1668,7 @@ font-size: 8px;
         padding: 2rem;
     }
     .linking a{
-        font-size: 8px;
+        font-size: 7px;
     }
     .Link{
         display: none;
@@ -1987,24 +1987,10 @@ font-size: 8px;
         
     }
     .Link a{
-        color: red;
+        color: rgb(176, 127, 196);
         font-size: 0.2rem;
     }
-    
-    /* .linking{
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .linking a{
-        color: rgba(124, 80, 166, 0.937);
-        align-items: center;
-        justify-content: center;
-        font-size: 0.3rem;
-    } */
-
-    
-        .contact{
+    .contact{
             padding: 2rem;
             font-size: large;
         }
@@ -2173,10 +2159,10 @@ font-size: 8px;
         padding: 2rem;
     }
     .linking{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .linking a{
-        font-size: 10px;
+        font-size: 9px;
     }
     .Link{
         display: none;
