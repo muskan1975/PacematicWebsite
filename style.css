@@ -1235,7 +1235,7 @@ body{
 }
 
 
-@media  screen and (min-width:350px) and (max-width:450px){
+@media  screen and (min-width:349px) and (max-width:499px){
      .head img{
         width: 20rem;
     }
@@ -1484,7 +1484,7 @@ font-size: 8px;
 }
 }
 
-@media  screen and (min-width:540px) and (max-width:767px){
+@media  screen and (min-width:499px) and (max-width:770px){
     .head img{
         width: 20rem;
     }
@@ -1530,17 +1530,17 @@ font-size: 8px;
          font-size:2vh;
      } 
      .box-1{
-        height: 72vh;
+        height: 76vh;
         
     }
     .box-1 button{
-        font-size: larger;
+        font-size: large;
         flex-direction: column;
         height: auto;
         width: auto;
     }
     .box-1 span{
-        padding: 1rem;
+        padding: 0.5rem;
     }
     .mega{
         height: 8rem;
@@ -1629,14 +1629,14 @@ font-size: 8px;
     .c4-box{
         padding: 1rem;
         width: 60vh;
-        height: 50vh;
+        height: 70vh;
     }
     .c4-subbox{
         flex-direction: column;
         padding-bottom: 3rem;
     }
     .c4-subbox p{
-        font-size: x-large;
+        font-size: larger;
     }
     .discript{
         display: flex;
@@ -1669,18 +1669,18 @@ font-size: 8px;
     .q-box1{
         padding: 1rem;
         width: 50vh;
-        height: 30vh;
+        height: 40vh;
     }
     .q-box2{
         gap: 30px;
         padding: 1rem;
         width: 50vh;
-        height: 35vh;
+        height: 54vh;
     }
     .q-box3{
         padding: 1rem;
         width: 50vh;
-        height: 45vh;
+        height: 65vh;
     }
     .question-boxes2{
         padding: 2rem;
@@ -1701,7 +1701,7 @@ font-size: 8px;
         
     }
     .linking a{
-        font-size: 10px;
+        font-size: 8px;
     }
     .last{
          padding: 0.3rem;
@@ -1713,7 +1713,7 @@ font-size: 8px;
     }
 }
 
-@media  screen and (min-width:260px) and (max-width:350px){
+@media  screen and (min-width:260px) and (max-width:349px){
     .head img{
         padding: 1rem;
         width: 13rem;
