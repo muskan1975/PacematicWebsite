@@ -1,4 +1,4 @@
-var  timer= new Date("sept 1, 2023 10:00:00").getTime();
+var  timer= new Date("feb 21, 2024 10:00:00").getTime();
 var x = setInterval(function(){
 var now = new Date().getTime();
 var diff = timer - now ;
@@ -30,7 +30,7 @@ document.getElementById("tm-btn16").innerHTML = seconds
 
 
 
-var  timer= new Date("sept 1, 2023 10:00:00").getTime();
+var  timer= new Date("feb 21, 2024 10:00:00").getTime();
 var x = setInterval(function(){
 var now = new Date().getTime();
 var diff = timer - now ;

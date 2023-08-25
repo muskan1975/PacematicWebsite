@@ -968,7 +968,7 @@ body{
     font-size: 20px;
 }
 
-@media  screen and (min-width:770px) and (max-width:1023px){
+@media  screen and (min-width:769px) and (max-width:1023px){
     .head img{
         width: 30rem;
     }
@@ -1053,6 +1053,10 @@ body{
     .add-coma{
         display: none;
     }
+    .black-bar{
+        height: 15rem;
+    
+    }
    .container4-box1{
         padding-top: 2rem;
         height: auto;
@@ -1065,8 +1069,8 @@ body{
     }
     .c4-box{
         padding: 1rem;
-        width: 60vh;
-        height: 25vh;
+        width: 40rem;
+        height: 40vh;
     }
     .c4-subbox{
         flex-direction: column;
@@ -1079,6 +1083,9 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .black-bar2{
+        height: 10rem;
     }
     .np-img img {
         width:28rem;
@@ -1095,6 +1102,9 @@ body{
         font-size: 1.5rem;
         padding: 17rem;
     }
+    .black-bar3{
+        height: 10rem;
+    }
     .question-boxes{
         padding-top: 2rem;
         height: auto;
@@ -1102,19 +1112,19 @@ body{
     }
     .q-box1{
         padding: 1rem;
-        width: 50vh;
-        height: 15vh;
+        width: 80vh;
+        height: 25vh;
     }
     .q-box2{
         gap: 30px;
         padding: 1rem;
-        width: 50vh;
-        height: 20vh;
+        width: 80vh;
+        height: 35vh;
     }
     .q-box3{
         padding: 1rem;
-        width: 50vh;
-        height: 24vh;
+        width: 80vh;
+        height: 45vh;
     }
     .question-boxes2{
         padding: 2rem;
@@ -1215,7 +1225,7 @@ body{
         font-size:2vh;
     }
     .box-1{
-        height: 70vh;
+        height: 80vh;
         padding: 2rem;
     }
     .box-1 button{
@@ -1285,7 +1295,7 @@ body{
     padding: 1rem;
     }
     .black-bar{
-    height: 20vh;
+    height: 22vh;
     width: 100%
 }
 .black-bar h1{
@@ -1305,7 +1315,7 @@ body{
 .c4-box{
     padding: 1rem;
     width: 45vh;
-    height: 60vh;
+    height: 80vh;
 }
 .c4-subbox p{
     font-size: large;
@@ -1374,17 +1384,17 @@ body{
 .q-box1{
     padding: 1rem;
     width: 45vh;
-    height: 30vh;
+    height: 40vh;
 }
 .q-box2{
     padding: 1rem;
     width: 45vh;
-    height: 40vh;
+    height: 50vh;
 }
 .q-box3{
     padding: 1rem;
     width: 45vh;
-    height: 45vh;
+    height: 60vh;
 }
 .q-subbox{
     flex-direction: column;
@@ -1937,12 +1947,15 @@ font-size: 8px;
         }
     }
 
-@media  screen and (min-width:1024px) and (max-width:1350px){
+@media  screen and (min-width:1023px) and (max-width:1350px){
     .head img{
         width: 30rem;
     }
     .btn1{
-        display: none
+        display: block
+    }
+    .btn1 button{
+        width: 97%;
     }
     .box-1 button{
         font-size: large;
@@ -2006,6 +2019,9 @@ font-size: 8px;
     .add-coma{
         display: none;
     }
+    .black-bar{
+        height: auto;
+    }
    .container4-box1{
         padding-top: 2rem;
         height: auto;
@@ -2018,8 +2034,8 @@ font-size: 8px;
     }
     .c4-box{
         padding: 1rem;
-        width: 60vh;
-        height: 25vh;
+        width: 95vh;
+        height: 45vh;
     }
     .c4-subbox{
         flex-direction: column;
@@ -2055,19 +2071,19 @@ font-size: 8px;
     }
     .q-box1{
         padding: 1rem;
-        width: 50vh;
-        height: 15vh;
+        width: 95vh;
+        height: 25vh;
     }
     .q-box2{
         gap: 30px;
         padding: 1rem;
-        width: 50vh;
-        height: 20vh;
+        width: 95vh;
+        height: 30vh;
     }
     .q-box3{
         padding: 1rem;
-        width: 50vh;
-        height: 24vh;
+        width: 95vh;
+        height: 35vh;
     }
     .question-boxes2{
         padding: 2rem;
@@ -2087,10 +2103,10 @@ font-size: 8px;
         padding: 2rem;
     }
     .linking{
-        font-size: 0.5rem;
+        font-size: 0.9rem;
     }
     .linking a{
-        font-size: 5px;
+        font-size: 10px;
     }
     .last{
          padding: 0.3rem;
